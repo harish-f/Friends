@@ -25,7 +25,7 @@ struct ContentView: View {
             name: "person3",
             icon: "swift",
             school: "SST 👍",
-            slothImage: "rick astley",
+            slothImage: "rick astley", 
             attack: 15,
             defense: 10,
             types: [.ice, .fire]
