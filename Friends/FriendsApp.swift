@@ -13,5 +13,6 @@ struct FriendsApp: App {
         WindowGroup {
             ContentView()
         }
+
     }
 }
