@@ -7,7 +7,7 @@ struct ContentView: View {
             name: "person1",
             icon: "globe",
             school: "SST 👍",
-            slothImage: "sloth1",
+            slothImage: "dora egghead",
             attack: 10,
             defense: 5,
             types: [.grass, .water]
@@ -16,7 +16,7 @@ struct ContentView: View {
             name: "person2",
             icon: "mail",
             school: "SST 👍",
-            slothImage: "sloth2",
+            slothImage: "Map",
             attack: 5,
             defense: 10,
             types: [.normal, .electric]
@@ -25,7 +25,7 @@ struct ContentView: View {
             name: "person3",
             icon: "swift",
             school: "SST 👍",
-            slothImage: "sloth3",
+            slothImage: "rick astley",
             attack: 15,
             defense: 10,
             types: [.ice, .fire]
