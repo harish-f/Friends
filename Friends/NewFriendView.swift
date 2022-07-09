@@ -47,7 +47,6 @@ struct NewFriendView: View {
                             Text("ice")
                                 .tag(FriendType.ice)
                         }
-                        Text("hi")
                     }
                     
                 }
