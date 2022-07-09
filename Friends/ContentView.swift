@@ -7,7 +7,7 @@ struct ContentView: View {
             name: "person1",
             icon: "globe",
             school: "SST 👍",
-            cursedImage: "dora egghead",
+            cursedImage: "Dora egghead",
             attack: 10,
             defense: 5,
             types: [.grass, .water]
