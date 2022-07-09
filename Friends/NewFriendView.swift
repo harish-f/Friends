@@ -12,7 +12,7 @@ struct NewFriendView: View {
     @Environment(\.presentationMode) var presentationMode
     @Binding var friends: [Friend]
     @Binding var isNewFriendPresented: Bool
-    @State var newFriend = Friend(name: "", icon: "", school: "", slothImage: "sloth1", attack: 0, defense: 0, types: [.water])
+    @State var newFriend = Friend(name: "", icon: "", school: "", cursedImage: "sloth1", attack: 0, defense: 0, types: [.water])
     var body: some View {
         NavigationView {
             VStack {
@@ -52,7 +52,7 @@ struct NewFriendView: View {
                 }
                 HStack {
                     Button {
-                        newFriend = Friend(name: "", icon: "", school: "", slothImage: "", attack: 0, defense: 0, types: [])
+                        newFriend = Friend(name: "", icon: "", school: "", cursedImage: "", attack: 0, defense: 0, types: [])
                         presentationMode.wrappedValue.dismiss()
                     } label: {
                         Text("Cancel")

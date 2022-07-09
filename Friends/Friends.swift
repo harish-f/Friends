@@ -13,7 +13,7 @@ struct Friend: Identifiable, Equatable {
     var name: String
     var icon: String
     var school: String
-    var slothImage: String
+    var cursedImage: String
     
     var attack: Double
     var defense: Double

@@ -12,12 +12,12 @@ struct FriendDetailView: View {
     @Binding var friend: Friend;
     var body: some View {
         ScrollView {
-            Image(friend.slothImage)
+            Image(friend.cursedImage)
                 .resizable()
                 .frame(height: 300)
                 .scaledToFit()
             
-            Image(friend.slothImage)
+            Image(friend.cursedImage)
                 .resizable()
                 .scaledToFill()
                 .frame(width: 250, height: 250)
