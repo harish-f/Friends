@@ -33,7 +33,7 @@ struct NewFriendView: View {
                         }
                     }
                     Section(header: Text("hi")) {
-                        Picker("Type", selection: $newFriend.types) {
+                        Picker("Type", selection: $newFriend.types[0]) {
                             Text("normal")
                                 .tag(FriendType.normal)
                             Text("fire")
@@ -48,7 +48,7 @@ struct NewFriendView: View {
                                 .tag(FriendType.ice)
                         }
                     }
-                        
+                    
                 }
                 HStack {
                     Button {
