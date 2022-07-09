@@ -24,11 +24,11 @@ struct NewFriendView: View {
                     }
                     Section(header: Text("Pew Pew Strength")) {
                         VStack{
-                            Text("Attack: \(newFriend.attack)")
+                            Text("Attack: \(String(format: "%.0f", newFriend.attack))")
                             Slider(value: $newFriend.attack, in: 0...15, step: 1)
                         }
                         VStack{
-                            Text("Defense: \(newFriend.defense)")
+                            Text("Defense: \(String(format: "%.0f", newFriend.defense))")
                             Slider(value: $newFriend.defense, in: 0...15, step: 1)
                         }
                     }

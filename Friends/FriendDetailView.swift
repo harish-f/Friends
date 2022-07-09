@@ -46,11 +46,11 @@ struct FriendDetailView: View {
             }
             .padding()
             VStack(alignment: .leading){
-                Text("Attack")
+                Text("Attack: \(String(format: "%.0f", friend.attack))")
                 Slider(value: $friend.attack,
                        in: 0...15,
                        step: 1)
-                Text("Defence")
+                Text("Defence: \(String(format: "%.0f", friend.defense))")
                 Slider(value: $friend.defense,
                        in: 0...15,
                        step: 1)
