@@ -18,9 +18,9 @@ struct NewFriendView: View {
             VStack {
                 Form {
                     Section(header: Text("Information")) {
-                        TextField("Name", text: $newFriend.name)
-                        TextField("icon", text: $newFriend.icon)
-                        TextField("School", text: $newFriend.school)
+                        TextField("Enter your name", text: $newFriend.name)
+                        TextField("Enter an icon name", text: $newFriend.icon)
+                        TextField("Enter your school", text: $newFriend.school)
                     }
                     Section(header: Text("Pew Pew Strength")) {
                         VStack{
@@ -48,7 +48,7 @@ struct NewFriendView: View {
                                 .tag(FriendType.ice)
                         }
                     }
-                    
+                        
                 }
                 HStack {
                     Button {
@@ -67,7 +67,7 @@ struct NewFriendView: View {
                         friends.append(newFriend)
                         presentationMode.wrappedValue.dismiss()
                     } label: {
-                        Text("DON")
+                        Text("DONE")
                             .padding(10)
                             .background(.blue)
                             .foregroundColor(.white)
